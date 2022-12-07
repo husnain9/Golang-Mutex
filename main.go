@@ -7,9 +7,9 @@ import (
 )
 
 var (
-	bank        = 100 // available money in the bank
-	stingyAdded = 0   // money added by stingy
-	spendySpend = 0   // money spend by spendy
+	bank        = 100 //available money in the bank
+	stingyAdded = 0   //money added by stingy
+	spendySpend = 0   //money spend by spendy
 	access      = sync.Mutex{}
 )
 
